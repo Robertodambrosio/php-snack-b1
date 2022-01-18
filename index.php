@@ -26,9 +26,6 @@ $partite = [
 
 var_dump($partite);
 
-// for ($i = 0; $i < count($partite); $i++) {
-//     echo $partite[$i]["sqCasa"] . " - " . $partite[$i]["sqOspite"] . " | " . $partite[$i]["ptCasa"] . "-" . $partite[$i]["ptOspite"];
-// };
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +45,6 @@ var_dump($partite);
                 <?php echo $partite[$i]["sqCasa"] . " - " . $partite[$i]["sqOspite"] . " | " . $partite[$i]["ptCasa"] . "-" . $partite[$i]["ptOspite"]; ?>
                 </li>
                 <?php }; ?>
-                
         </ul>
 </body>
 </html>
